@@ -1,0 +1,191 @@
+.navbar{
+    background-color: #2C3E50;
+}
+
+.navbar-brand img{
+    width: 30px;
+    transform: scale(1.5);
+}
+.Mbut{
+    background-color: #1ABC9C;
+}
+.Mbut .fa{
+    color: #fff;
+    display: none;
+}
+@media(max-width: 700px){
+    .Mbut .fa{
+        display: block;
+    }
+}
+
+.banner{
+    background-color: #1ABC9C;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-top: 70px;
+    font-weight: bolder;
+}
+
+.banH{
+    width: 350px;
+    position: relative;
+    top: 50px;
+
+}
+
+.Btext{
+    font-weight: bolder;
+    color: white;
+    border-bottom: white 5px solid;
+    padding-bottom: 10px;
+    position: relative;
+    top: 50px;
+}
+.Btex{
+    color: white;
+    margin-top: 5px;
+    position: relative;
+    top: 50px;
+}
+
+.portfolio{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.progress-bar{
+    background-color: #1ABC9C;
+}
+
+.Ptext{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #2C3E50;
+    border-bottom: #2C3E50 8px solid;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h3{
+    padding: 30px 0;
+}
+
+.about{
+    background-color: #1ABC9C;
+    padding: 40px 0;
+    padding-top: 80px;
+    margin: 30px;
+}
+.Atext{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    border-bottom: white 8px solid;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.about p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 100px;
+}
+
+.contact{
+    padding-top: 80px;
+}
+
+.box{
+    width: 300px;
+    text-align: center;
+}
+.box h1{
+    color: #2C3E50;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type ="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+    border-bottom: 2px solid #2C3E50;
+    padding: 14px 10px;
+    width: 400px;
+    outline: none;
+    color: #2C3E50;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "email"]:focus{
+    width: 480px;
+    border-color: #1ABC9C;
+}
+.box .mess{
+    height: 100px;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2C3E50;
+    padding: 14px 40px;
+    outline: none;
+    color: #2C3E50;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: #2C3E50;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ 
+
+.footer{
+    background-color: #2C3E50;
+    color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 30px 0px;
+	
+}
+
+.footer h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 40px;
+    color: #b9b9b9;
+}
+
+.p{
+    color: #808080;
+}
+
+.icon a{
+	margin: 0px;
+}
+
+.fa {
+	padding: 0 20px;
+	font-size: 20px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #808080;
+}
+.fa:hover{
+    color: #fff;
+}
+
+.Copyright{
+    background-color: #212e3b;
+    color: #d6d6d6;
+}
